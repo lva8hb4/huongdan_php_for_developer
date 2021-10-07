@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Làm việc với Bootstrap trong PHP</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <!--Khai báo sử dụng bootstrap-->  
+        <script type="text/javascript" src="js/bootstrap.js"></script>  
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+    </head>    
+    <body>
+        <div class="container">
+            <fieldset>
+                <legend>Nhập thông tin đăng nhập</legend>
+                <div class="row">
+                    <label class="col-md-3">
+                        Tên đăng nhập:
+                    </label>
+                    <div class="form-group col-md-9">
+                        <input type="text" class="form-control" placeholder="Nhập tên đăng nhập"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-md-3">
+                        Mật khẩu:
+                    </label>
+                    <div class="form-group col-md-9">
+                        <input type="password" class="form-control" placeholder="Nhập mật khẩu đăng nhập" />
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-md-3">
+                       
+                    </label>
+                    <div class="col-md-9">
+                        <input type="submit" class="btn btn-primary" placeholder="Đăng nhập" />
+                        &nbsp;
+                        <button class="btn btn-danger">Huỷ bỏ</button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </body>    
+</html>    

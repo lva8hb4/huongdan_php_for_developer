@@ -1,0 +1,1 @@
+<h1>Chào mừng các bạn đến với Laravel tại Stanford !</h1>
